@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <title>
+            Welcome to Portfolio Website
+        </title>
+         <style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  form {
+    width: 1000px;
+    padding: 100px;
+    border: 10px solid #cccccc;
+    border-radius: 12px;
+    background: #f9f9f9;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  input, select {
+    width: 100%;
+    padding: 8px;
+    border: 5px solid #cccccc;
+    border-radius: 4px;
+  }
+</style>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron text-center"
+        style="background-color:cornflowerblue";>
+           <h1> Code To Creation </h1>
+           <p> Portfolio </p>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand"href="#">SCW</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href=" ">Home</a></li>
+                    <li><a href=" ">About us</a></li>
+                    <li><a href=" ">Gallery</a></li>
+                    <li><a href=" ">Contacts</a></li>
+                    <li><a href=" ">Projects</a></li>
+                    <li><a href=" ">Skill</a></li>
+                    <li><a href=" ">Achievements</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid"></div>
+<div class="container">
+  <h2>Registration form</h2>
+  <form class="form-horizontal" action="/">
+    <div class="form-group">
+      <label>
+                First Name: <input type="text" name="FirstName" placeholder="FirstName" required>
+            </label><br>
+            <lable>
+                Last Name: <input type="text" name="LastName" placeholder="LastName" required>
+            </label><br>
+            <lable>
+                Male <input type="radio" name="gender" value="male">
+            </lable>
+            <lable>
+                  Female <input type="radio" name="gender" value="female">
+            </lable>
+            <lable>
+                  Other <input type="radio" name="gender" value="other">
+            </lable><br>
+          </div>
+      <div class="'form-group">
+      <label for="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password">
+      </div>
+    </div>
+    <div class="form-group">   
+      <lable for=""> 
+                Birthday:
+            </lable>
+            <select id="Birthday" name="Month">
+                <option>Month</option>
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+             <select id="Birthday" name="Date">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+             </select>
+             <select id="Birthday" name="Year">
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+             </select><br>   
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label> 
+             I agree to terms and conditions 
+            <input type="checkbox" name="check"> 
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>

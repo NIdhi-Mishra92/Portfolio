@@ -1,0 +1,7 @@
+.jumbotron
+{
+    background-color:rgb(0, 174, 255);
+}
+html {
+  scroll-behavior: smooth;
+}
